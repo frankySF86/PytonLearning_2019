@@ -11,3 +11,4 @@ with sqlite3.connect(":memory:") as connection:
 
 for fighter in records:
     print(fighter[0] + " " + str(fighter[1]))
+
